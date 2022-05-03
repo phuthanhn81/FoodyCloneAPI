@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.Data", "Foody.Data\Foody.Data.csproj", "{F7A30997-D896-4748-93FF-F7BE091AFD36}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.API", "Foody.API\Foody.API.csproj", "{214A7E0E-FDB4-4EE5-879A-82166888FC0C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0", "0", "{CD3DE1F1-9243-495D-AB46-A921CC1E0C78}"
+	ProjectSection(SolutionItems) = preProject
+		Note.md = Note.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.Service", "Foody.Service\Foody.Service.csproj", "{49B29328-6DF5-49D4-BA9F-3EB974060C4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F7A30997-D896-4748-93FF-F7BE091AFD36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7A30997-D896-4748-93FF-F7BE091AFD36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7A30997-D896-4748-93FF-F7BE091AFD36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7A30997-D896-4748-93FF-F7BE091AFD36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{214A7E0E-FDB4-4EE5-879A-82166888FC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214A7E0E-FDB4-4EE5-879A-82166888FC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214A7E0E-FDB4-4EE5-879A-82166888FC0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214A7E0E-FDB4-4EE5-879A-82166888FC0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49B29328-6DF5-49D4-BA9F-3EB974060C4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49B29328-6DF5-49D4-BA9F-3EB974060C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49B29328-6DF5-49D4-BA9F-3EB974060C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49B29328-6DF5-49D4-BA9F-3EB974060C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F7A30997-D896-4748-93FF-F7BE091AFD36} = {CD3DE1F1-9243-495D-AB46-A921CC1E0C78}
+		{49B29328-6DF5-49D4-BA9F-3EB974060C4A} = {CD3DE1F1-9243-495D-AB46-A921CC1E0C78}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B78CF718-0294-4F8A-9F11-5FEA45CA1290}
+	EndGlobalSection
+EndGlobal

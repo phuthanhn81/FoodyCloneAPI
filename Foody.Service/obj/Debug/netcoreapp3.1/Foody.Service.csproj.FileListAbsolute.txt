@@ -1,0 +1,12 @@
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\bin\Debug\netcoreapp3.1\Foody.Service.deps.json
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\bin\Debug\netcoreapp3.1\Foody.Service.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\bin\Debug\netcoreapp3.1\Foody.Service.pdb
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\bin\Debug\netcoreapp3.1\Foody.Data.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\bin\Debug\netcoreapp3.1\Foody.Data.pdb
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\obj\Debug\netcoreapp3.1\Foody.Service.csprojAssemblyReference.cache
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\obj\Debug\netcoreapp3.1\Foody.Service.AssemblyInfoInputs.cache
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\obj\Debug\netcoreapp3.1\Foody.Service.AssemblyInfo.cs
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\obj\Debug\netcoreapp3.1\Foody.Service.csproj.CoreCompileInputs.cache
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\obj\Debug\netcoreapp3.1\Foody.Service.csproj.CopyComplete
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\obj\Debug\netcoreapp3.1\Foody.Service.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\obj\Debug\netcoreapp3.1\Foody.Service.pdb

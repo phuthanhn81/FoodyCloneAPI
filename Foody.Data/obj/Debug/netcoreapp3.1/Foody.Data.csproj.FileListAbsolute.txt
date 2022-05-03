@@ -1,0 +1,12 @@
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Data\bin\Debug\netcoreapp3.1\Foody.Data.deps.json
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Data\bin\Debug\netcoreapp3.1\Foody.Data.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Data\bin\Debug\netcoreapp3.1\Foody.Data.pdb
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.AssemblyInfoInputs.cache
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.AssemblyInfo.cs
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.pdb
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Data\bin\Debug\netcoreapp3.1\Foody.Data.runtimeconfig.json
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Data\bin\Debug\netcoreapp3.1\Foody.Data.runtimeconfig.dev.json
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.genruntimeconfig.cache
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.csproj.CoreCompileInputs.cache
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Data\obj\Debug\netcoreapp3.1\Foody.Data.csprojAssemblyReference.cache
