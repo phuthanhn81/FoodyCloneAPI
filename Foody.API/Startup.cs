@@ -29,11 +29,16 @@ namespace Foody.API
             #endregion
 
             #region Repository
-            services.AddTransient<IPlaceRepository, PlaceRepository>();
+            services.AddTransient<IPlacesRepository, PlacesRepository>();
+            services.AddTransient<IPlaceDishesRepository, PlaceDishesRepository>();
+            services.AddTransient<IOrdersRepository, OrdersRepository>();
+            services.AddTransient<IOrderDetailsRepository, OrderDetailsRepository>();
             #endregion
 
             #region Service
-            services.AddTransient<IPlaceService, PlaceService>();
+            services.AddTransient<IPlacesService, PlacesService>();
+            services.AddTransient<IPlaceDishesService, PlaceDishesService>();
+            services.AddTransient<IOrdersService, OrdersService>();
             #endregion
 
             services.AddControllersWithViews();

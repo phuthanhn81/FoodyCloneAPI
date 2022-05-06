@@ -11,11 +11,16 @@ namespace Foody.Data.EF
         {
         }
 
-        public virtual DbSet<Place> Place { get; set; }
+        public virtual DbSet<Places> Places { get; set; }
+        public virtual DbSet<PlaceDishes> PlaceDishes { get; set; }
+        public virtual DbSet<Orders> Orders { get; set; }
+        public virtual DbSet<OrderDetails> OrderDetails { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            modelBuilder.ApplyConfiguration(new PlaceConfiguration());
+            modelBuilder.ApplyConfiguration(new PlacesConfiguration());
+            modelBuilder.ApplyConfiguration(new PlaceDishesConfiguration());
+            modelBuilder.ApplyConfiguration(new OrderDetailsConfiguration());
         }
     }
 }
