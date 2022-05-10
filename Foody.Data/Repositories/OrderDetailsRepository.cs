@@ -34,7 +34,7 @@ namespace Foody.Data.Repositories
 
                 return 200;
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return 500;
             }

@@ -1,7 +1,8 @@
 ﻿using System.Threading.Tasks;
-using Foody.API.Models;
 using Foody.Service.Service;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using ViewModels.Models;
 
 namespace Foody.API.Controllers
 {
@@ -21,6 +22,7 @@ namespace Foody.API.Controllers
         }
 
         [HttpGet("PlacesByCode")]
+        [Authorize]
         public async Task<IActionResult> GetPlacesByCode(int code)
         {
             var data = await _placeService.GetPlacesByCode(code);
@@ -28,6 +30,7 @@ namespace Foody.API.Controllers
         }
 
         [HttpGet("PlaceDishesByPlaceID")]
+        [Authorize]
         public async Task<IActionResult> PlaceDishesByPlaceID(int placeid)
         {
             var data = await _placeDishesService.GetPlaceDishesByPlaceID(placeid);
@@ -35,9 +38,11 @@ namespace Foody.API.Controllers
         }
 
         [HttpPost("RequestOrders")]
+        [Authorize]
         public async Task<IActionResult> RequestOrders(RequestOrdersModel request)
         {
-            var result = await _ordersService.RequestOrders(request.order, request.orderDetail);
+            string username = User.Identity.Name;
+            var result = await _ordersService.RequestOrders(request.order, request.orderDetail, username);
             return Ok(result);
         }
     }

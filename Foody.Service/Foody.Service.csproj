@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Foody.Data\Foody.Data.csproj" />
+    <ProjectReference Include="..\ViewModels\ViewModels.csproj" />
   </ItemGroup>
 
 </Project>

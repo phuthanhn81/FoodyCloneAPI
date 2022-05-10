@@ -10,3 +10,5 @@ C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\obj\Debug\netcoreapp3.1\
 C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\obj\Debug\netcoreapp3.1\Foody.Service.csproj.CopyComplete
 C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\obj\Debug\netcoreapp3.1\Foody.Service.dll
 C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\obj\Debug\netcoreapp3.1\Foody.Service.pdb
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\bin\Debug\netcoreapp3.1\ViewModels.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.Service\bin\Debug\netcoreapp3.1\ViewModels.pdb

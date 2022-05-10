@@ -12,7 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0", "0", "{CD3DE1F1-9243-49
 		Note.md = Note.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Foody.Service", "Foody.Service\Foody.Service.csproj", "{49B29328-6DF5-49D4-BA9F-3EB974060C4A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Foody.Service", "Foody.Service\Foody.Service.csproj", "{49B29328-6DF5-49D4-BA9F-3EB974060C4A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ViewModels", "ViewModels\ViewModels.csproj", "{6ED9ED4A-E712-4033-ACF4-FA4C6AEFB3DD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1", "1", "{43322FBB-5540-4822-B0A3-D13C6B18171D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -32,6 +36,10 @@ Global
 		{49B29328-6DF5-49D4-BA9F-3EB974060C4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49B29328-6DF5-49D4-BA9F-3EB974060C4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49B29328-6DF5-49D4-BA9F-3EB974060C4A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED9ED4A-E712-4033-ACF4-FA4C6AEFB3DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED9ED4A-E712-4033-ACF4-FA4C6AEFB3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED9ED4A-E712-4033-ACF4-FA4C6AEFB3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED9ED4A-E712-4033-ACF4-FA4C6AEFB3DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -39,6 +47,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{F7A30997-D896-4748-93FF-F7BE091AFD36} = {CD3DE1F1-9243-495D-AB46-A921CC1E0C78}
 		{49B29328-6DF5-49D4-BA9F-3EB974060C4A} = {CD3DE1F1-9243-495D-AB46-A921CC1E0C78}
+		{6ED9ED4A-E712-4033-ACF4-FA4C6AEFB3DD} = {43322FBB-5540-4822-B0A3-D13C6B18171D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B78CF718-0294-4F8A-9F11-5FEA45CA1290}

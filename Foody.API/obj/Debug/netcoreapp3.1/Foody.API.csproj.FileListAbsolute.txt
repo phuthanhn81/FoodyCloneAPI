@@ -17,9 +17,6 @@ C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Micr
 C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
-C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\obj\Debug\netcoreapp3.1\Foody.API.csproj.CoreCompileInputs.cache
-C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\obj\Debug\netcoreapp3.1\Foody.API.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\obj\Debug\netcoreapp3.1\Foody.API.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\obj\Debug\netcoreapp3.1\Foody.API.csproj.CopyComplete
 C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\obj\Debug\netcoreapp3.1\Foody.API.dll
 C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\obj\Debug\netcoreapp3.1\Foody.API.pdb
@@ -67,3 +64,14 @@ C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Food
 C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Foody.Data.pdb
 C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Foody.Service.dll
 C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Foody.Service.pdb
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\ViewModels.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\ViewModels.pdb
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\obj\Debug\netcoreapp3.1\Foody.API.csproj.CoreCompileInputs.cache
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\obj\Debug\netcoreapp3.1\Foody.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\phuth\Desktop\ASP.NET Core\Foody\Foody.API\obj\Debug\netcoreapp3.1\Foody.API.MvcApplicationPartsAssemblyInfo.cache

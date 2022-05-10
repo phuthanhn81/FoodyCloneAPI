@@ -1,12 +1,14 @@
 using Foody.Data.EF;
 using Foody.Data.Repositories;
 using Foody.Service.Service;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 
 namespace Foody.API
@@ -33,12 +35,15 @@ namespace Foody.API
             services.AddTransient<IPlaceDishesRepository, PlaceDishesRepository>();
             services.AddTransient<IOrdersRepository, OrdersRepository>();
             services.AddTransient<IOrderDetailsRepository, OrderDetailsRepository>();
+            services.AddTransient<IUsersRepository, UsersRepository>();
+            services.AddTransient<ITokenRepository, TokenRepository>();
             #endregion
 
             #region Service
             services.AddTransient<IPlacesService, PlacesService>();
             services.AddTransient<IPlaceDishesService, PlaceDishesService>();
             services.AddTransient<IOrdersService, OrdersService>();
+            services.AddTransient<ILoginService, LoginService>();
             #endregion
 
             services.AddControllersWithViews();
@@ -47,6 +52,33 @@ namespace Foody.API
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Title Swagger", Version = "v1" });
+            });
+            #endregion
+
+            #region Authorization
+            string signingKey = Configuration.GetValue<string>("Token:Key");
+            byte[] signingKeyBytes = System.Text.Encoding.UTF8.GetBytes(signingKey);
+
+            services.AddAuthentication(opt =>
+            {
+                opt.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                opt.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            })
+            .AddJwtBearer(options =>
+            {
+                options.RequireHttpsMetadata = false;
+                options.SaveToken = true;
+                options.TokenValidationParameters = new TokenValidationParameters()
+                {
+                    ValidateIssuer = true,
+                    ValidIssuer = Configuration.GetValue<string>("Token:Issuer"),
+                    ValidateAudience = true,
+                    ValidAudience = Configuration.GetValue<string>("Token:Issuer"),
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ClockSkew = System.TimeSpan.Zero,
+                    IssuerSigningKey = new SymmetricSecurityKey(signingKeyBytes)
+                };
             });
             #endregion
         }
@@ -69,6 +101,7 @@ namespace Foody.API
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             #region Swagger
